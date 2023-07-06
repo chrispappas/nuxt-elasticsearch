@@ -1,6 +1,6 @@
 {
   "name": "nuxt-elasticsearch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Elasticsearch Client for Nuxt",
   "repository": "chrispappas/nuxt-elasticsearch",
   "license": "MIT",
@@ -29,7 +29,8 @@
   },
   "dependencies": {
     "@elastic/elasticsearch": "^7.17.11-patch.1",
-    "@nuxt/kit": "^3.6.2"
+    "@nuxt/kit": "^3.6.2",
+    "defu": "^6.1.2"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
